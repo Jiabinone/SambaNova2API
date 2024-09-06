@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  sambanova2api:
+    build: .
+    container_name: sambanova2api_app
+    ports:
+      - "${PORT:-3335}:${PORT:-3335}"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT=${PORT:-3335}
+    restart: unless-stopped

@@ -1,0 +1,52 @@
+# 版本控制
+.git
+.gitignore
+
+# Python相关
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 开发环境
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 单元测试 / 覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 环境变量文件
+.env
+.env.local
+
+# 文档
+README.md
+docs/
+
+# Docker相关
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 其他不需要的文件
+*.sqlite3
+*.db
+node_modules/

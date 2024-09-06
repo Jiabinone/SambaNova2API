@@ -1,0 +1,54 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE 生成的文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 依赖目录
+node_modules/
+vendor/
+
+# 编译输出
+dist/
+build/
+*.so
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+
+# 临时文件
+tmp/
+temp/
+
+# 个人配置文件
+config.local.js
+
+# Python 测试/覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
